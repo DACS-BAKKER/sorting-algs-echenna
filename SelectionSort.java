@@ -16,6 +16,9 @@ public class SelectionSort {
     // smallest and the second one does not because it is not smaller than smallest, but equal. Therefore the first
     // one remains first and the second one comes second
 
+    // UPDATE: what I said above was incorrect because of the case of something like {4, 4, 1}, where the swap would
+    //           displace the order CHECK SELECTIONSORTSTABLE FOR REAL STABLE SORT
+
     public static int[] selectionSort(int[] list) { // this selection sort is already stable
         for (int i1 = 0; i1 < list.length-1; i1++) { // sorted list index
             int smallest = list[i1];

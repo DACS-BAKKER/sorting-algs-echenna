@@ -97,9 +97,9 @@ EXTRA FILES:
                        and return the exponent x in O(n^x), but there are some timing issues and for some reason it
                        always seems to be faster to sort 10 objects than 5. I do not know why.
 
-    Bogo Sort - the greatest sorting algorithm of them all, it randomizes a list until it is sorted
+    BogoSort - the greatest sorting algorithm of them all, it randomizes a list until it is sorted
 
-    Counting Sort - the lead-up to the radix sort (which I could not solve), it takes single digit ints and sorts them
+    CountingSort - the lead-up to the radix sort (which I could not solve), it takes single digit ints and sorts them
                     by counting the number of items of each value 0-9 in it.
 
     Node - a node
@@ -107,3 +107,5 @@ EXTRA FILES:
     RAStack - a stack implementing a resizable array
 
     LLStack - a stack implementing a linked list
+
+    SelectionSortStable - stable implementation of the selection sort
