@@ -12,7 +12,11 @@ import java.awt.*;
 
 public class SelectionSort {
 
-    public static int[] selectionSort(int[] list) {
+    // this selection sort is stable because if there are two equally small smallest items, the first one is set to
+    // smallest and the second one does not because it is not smaller than smallest, but equal. Therefore the first
+    // one remains first and the second one comes second
+
+    public static int[] selectionSort(int[] list) { // this selection sort is already stable
         for (int i1 = 0; i1 < list.length-1; i1++) { // sorted list index
             int smallest = list[i1];
             int smallestIndex = i1;
